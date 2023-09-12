@@ -1,0 +1,8 @@
+{{template "base" .}}
+{{define "content"}}
+    <div class="container">
+        <h1>This is About US Page</h1>
+        <p>New Line2</p>
+        <p>This is the data that has been passed from the handler: {{index .StringMap "test"}}</p>
+    </div>
+{{end}}
